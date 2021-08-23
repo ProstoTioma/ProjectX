@@ -64,6 +64,7 @@ public class Screen extends Canvas {
         ArrayList<SpaceObject> objects = game.spaceObjects;
         drawObject(g, objects);
         game.moveObjects(objects);
+        drawOrbits(g, objects);
 
         g.dispose();
         strategy.show();
@@ -82,6 +83,12 @@ public class Screen extends Canvas {
         for (SpaceObject o : objects) {
             g.setColor(o.color);
             g.fillOval(o.x, o.y, (int) o.radius * 2, (int) o.radius * 2);
+        }
+    }
+    private void drawOrbits(Graphics2D g, ArrayList<SpaceObject> objects) {
+        for (SpaceObject o : objects) {
+            g.setColor(Color.GRAY);
+            g.drawOval(800, 450, (int) o.distanceToSun, (int) o.distanceToSun);
         }
     }
 

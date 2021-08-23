@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b1730ce-0355-4ab4-9eb9-0a8d120bb185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/SpaceObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/Screen.java" afterDir="false" />
+    <list default="true" id="3b1730ce-0355-4ab4-9eb9-0a8d120bb185" name="Default Changelist" comment="First env is ready solar system added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/SpaceObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/SpaceObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Game.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +40,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -74,6 +71,21 @@
       <option name="presentableId" value="Default" />
       <updated>1629644790317</updated>
     </task>
+    <task id="LOCAL-00001" summary="First env is ready solar system added">
+      <created>1629657124271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629657124271</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First env is ready solar system added">
+      <created>1629657217281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629657217281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,5 +98,22 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First env is ready solar system added" />
+    <option name="LAST_COMMIT_MESSAGE" value="First env is ready solar system added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="o.distanceToSun == 740" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/game/Game.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

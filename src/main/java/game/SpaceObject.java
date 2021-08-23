@@ -10,9 +10,10 @@ public class SpaceObject {
     public double distanceToSun;
     public double radius, mass;
     public double[] velocity;
+    public double a;
 
 
-    public SpaceObject(Color color, int x, int y, double radius, double mass, int distanceToSun, double[] velocity) {
+    public SpaceObject(Color color, int x, int y, double radius, double mass, int distanceToSun, double[] velocity, double a) {
         this.color = color;
         this.x = x;
         this.y = y;
@@ -20,6 +21,7 @@ public class SpaceObject {
         this.mass = mass;
         this.distanceToSun = distanceToSun;
         this.velocity = velocity;
+        this.a = a;
     }
 
 
